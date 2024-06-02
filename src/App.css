@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  width: 100%;
+  background-color: #000000; 
+  color: #FFFFFF; 
+  height: 70px;
+  padding: 0 15px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 1.5em;
+  color: #66FCF1;
+}
+
+ 
+.button {
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  transform: translateX(-50%);
+  background-color: #000000; 
+  color: #FFFFFF; 
+  padding: 15px 30px; 
+  border: solid #66FCF1; 
+  border-radius: 24px; 
+  cursor: pointer !important; 
+}
+.stop-button{
+  position: absolute;
+  bottom: 20px;
+  left: 60%;
+  transform: translateX(-50%);
+  background-color: #000000; 
+  color: #FFFFFF; 
+  padding: 15px 30px; 
+  border: solid #66FCF1; 
+  border-radius: 24px; 
+  cursor: pointer !important;  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .button {
+    bottom: 30px;
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    margin-right: 10px; 
+    white-space: nowrap;
+  }
+
+  .stop-button {
+    bottom: 30px;
+    left: 65%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    margin-left: 10px; 
+    white-space: nowrap;
+  }
+}
+
+
+
+
